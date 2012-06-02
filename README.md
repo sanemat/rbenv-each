@@ -39,6 +39,8 @@ To install phpenv-each, clone this repository into your ~/.phpenv/plugins direct
 $ mkdir -p ~/.phpenv/plugins
 $ cd ~/.phpenv/plugins
 $ git clone https://github.com/sanemat/rbenv-each.git
+$ cd rbenv-each
+$ git checkout for-CHH-phpenv
 ```
 
 ## Usage
