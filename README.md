@@ -29,7 +29,7 @@ $ rbenv each bundle install
 $ rbenv each -v rake test
 ```
 ----
-# For phpenv
+# For CHH/phpenv
 ## Installation
 
 To install phpenv-each, clone this repository into your ~/.phpenv/plugins directory. (You'll need a recent version of phpenv that supports plugin bundles.)
