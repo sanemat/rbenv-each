@@ -24,7 +24,7 @@ for php in `phpenv versions --bare`; do
     echo -e "\033[1;34m[$php]:\033[0m \033[1;32m$@\033[0m";
     echo -e "\033[1;34m******************************************************************\033[0m";
   fi
-  PHPENV_VERSION=$php "$@"
+  RBENV_VERSION=$php "$@"
   if [ $verbose = 1 ]; then
     echo
   fi
